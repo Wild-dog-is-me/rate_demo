@@ -1,0 +1,11 @@
+server:
+    port: 9000
+spring:
+    application:
+        name: rate-demo
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        name: defaultDataSource
+        url: jdbc:mysql://localhost:3306/rate_demo?serverTimezone=GMT%2b8
+        username: root
+        password: root
